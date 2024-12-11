@@ -1,0 +1,25 @@
+body{
+    background-color: #f7ffddd3;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+.div2 {
+    text-align: center;
+    margin: 20px;
+}
+button{
+    padding: 5px 10px;
+    background-color: #dbc6b4;
+    border-radius: 20px;
+    border: none;
+}

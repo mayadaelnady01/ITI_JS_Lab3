@@ -1,0 +1,54 @@
+body {
+    background-color: #dad2d2;
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+  }
+  .div1 {
+    border-radius: 10px;
+    width: 400px;
+  } 
+  .task {
+    background-color: #fff6c6;
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+  .add{
+    padding: 10px 20px;
+    background-color: #fff6c6;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .item.green {
+    background-color: #66c466;
+    color: rgb(220, 15, 15);
+  }
+ .task-name {
+    flex: 1;
+    margin: 0 10px;
+    border: 2px solid rgba(5, 5, 5, 0.568);
+    border-radius: 20px;
+    padding : 10px; 
+  }
+  
+  .done, .delete{
+    background-color:#fff6c6;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: none;
+  }
+  .done{
+    margin-right: 10px;
+  }
+  
